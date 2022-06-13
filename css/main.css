@@ -212,7 +212,11 @@ header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu {
 
 header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li {
   transition: .4s;
-  font-weight: 700;
+  padding: 20px 25px;
+  display: block;
+  opacity: 1.;
+  text-align: center;
+  width: 225px;
 }
 
 header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li:hover {
@@ -222,13 +226,9 @@ header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li:hover {
 
 
 header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a {
-  text-align: center;
-  width: 225px;
+  font-weight: 700;
   font-size: 20px;
-  padding: 20px 25px;
-  display: block;
   color: white;
-  opacity: 1.;
 }
 
 
@@ -536,20 +536,24 @@ textarea {
     width: 100%;
   }
   header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li {
+    padding: 20px 0 ;
   }
   header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a {
-    max-width: 150px; /*임의지정*/
+    position: relative;
+    width: 100%; /*임의지정*/
     font-size: 15px;
+    
   }
 
   /* HISTORY */
   .history {
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin: 0 auto;
   }
   .history .history-page .title-group h1{
     font-size: 30px;
-    
+    border-bottom: 3px solid midnightblue;
   }
   .history-list-box .history-year-box{
     padding-top: 65px;
@@ -557,11 +561,12 @@ textarea {
   }
   .history-list-box .history-year-box h4{ 
     font-size:25px; 
-    width: 95.5%;
+    width: 90%;
+    overflow:hidden;
     padding-left: 30px;
   }
   .history-list-box .history-year-box h4:before{
-    width: 100%;
+    display: none;
   }
   .history-list-box .history-year-box .history-year-item .history-month strong{
     font-size: 20px;
