@@ -559,6 +559,9 @@ textarea {
     padding-top: 65px;
     padding-left:0; 
   }
+  .history-list-box .history-year-box:first-child{
+    border-bottom: 3px solid midnightblue;
+  }
   .history-list-box .history-year-box h4{ 
     font-size:25px; 
     width: 90%;
