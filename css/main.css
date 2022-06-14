@@ -16,7 +16,7 @@ a {
 hr {
   max-width: 1100px;
   height:5px;
-  background-color: midnightblue;
+  background-color: rgb(69, 48, 138);
 }
 
 .title-group {
@@ -32,7 +32,7 @@ hr {
   font-size: 45px;
   margin: 4px 0 0;
   padding: 10px 0 70px 0;
-  color: midnightblue;
+  color: rgb(69, 48, 138);
 }
 
 /*BACK TO POSITION*/
@@ -159,7 +159,7 @@ header .inner2 {
 }
 
 header .inner2 .title-wrapper {
-  background-color: #5050FF;
+  background-color: #7B68EE;
   height: 500px;
   position: relative;
 }
@@ -292,7 +292,7 @@ header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a:hover {
   top:0; 
   margin:0; 
   padding: 20px 0; 
-  color:midnightblue; 
+  color:rgb(69, 48, 138); 
   font-size:40px; 
   font-weight:600; 
   letter-spacing:-1.0px; 
@@ -305,7 +305,7 @@ header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a:hover {
   left:0; 
   width:257px; 
   height:3px; 
-  background-color:midnightblue
+  background-color:rgb(69, 48, 138);
 }
 
 .history-list-box .history-year-box .history-year-list-con{
@@ -314,7 +314,7 @@ header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a:hover {
 }
 
 .history-list-box .history-year-box .top-line-con{
-  border-top: 1px solid midnightblue;
+  border-top: 1px solid rgb(69, 48, 138);
 }
 
 .history-list-box .history-year-box .floor-none-line{
@@ -342,7 +342,7 @@ header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a:hover {
 }
 
 .history-list-box .history-year-box .history-year-item .history-month strong{
-  color:midnightblue; 
+  color:rgb(69, 48, 138); 
   font-weight:600; 
   font-size:32px; 
   letter-spacing: -0.8px;
@@ -553,14 +553,14 @@ textarea {
   }
   .history .history-page .title-group h1{
     font-size: 30px;
-    border-bottom: 3px solid midnightblue;
+    border-bottom: 3px solid rgb(69, 48, 138);
   }
   .history-list-box .history-year-box{
     padding-top: 65px;
     padding-left:0; 
   }
   .history-list-box .history-year-box:first-child{
-    border-bottom: 3px solid midnightblue;
+    border-bottom: 3px solid rgb(69, 48, 138);
   }
   .history-list-box .history-year-box h4{ 
     font-size:25px; 
@@ -580,7 +580,18 @@ textarea {
   }
 
   /* AWARDS */
+  .awards .inner {
+    height: 470px;
+  }
   .awards .inner .title-group h1{
     font-size: 30px;
+  }
+  .awards .inner .swiper {
+    width: 100%;
+    max-height: 250px;
+  }
+  .awards .inner .swiper .swiper-slide {
+    max-width: 200px;
+    max-height: 200px;
   }
 }
